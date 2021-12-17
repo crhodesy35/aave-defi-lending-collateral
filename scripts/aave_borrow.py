@@ -1,5 +1,4 @@
 from brownie import network, interface, config
-import web3
 from scripts.utils import get_account
 from scripts.get_weth import getWeth
 from web3 import Web3
