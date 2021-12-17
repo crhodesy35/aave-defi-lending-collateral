@@ -1,6 +1,6 @@
 from brownie import network, accounts
 
-LOCAL_BLOCKCHAIN_ENVIRONMENTS = ['development', 'hardhat','ganache-local', 'mainnet-fork']
+LOCAL_BLOCKCHAIN_ENVIRONMENTS = ['development', 'hardhat','ganache-local', 'mainnet-fork', 'ganache-cli']
 
 def get_account(index=None, id=None):
     if index:
